@@ -1,31 +1,27 @@
 # bitblog
 
-A lightweight, minimal PHP blog script for sharing your thoughts with ease.
+A simple, file-based blog system built with PHP and Markdown.
 
 ## Features
 
-- Simple and easy to use
-- Lightweight and fast
-- No database required (flat-file storage)
-- Markdown support for formatting
-- Responsive design
-
-## Requirements
-
-- PHP 7.0 or higher
-- A web server (e.g., Apache, Nginx)
+- 📝 Markdown post support
+- 🔍 Full-text search
+- 📱 Responsive pagination
+- ⚡ Fast & lightweight (single file)
+- 📦 No database required
 
 ## Installation
 
-1. Download or clone this repository.
-2. Upload the files to your web server.
-3. Set write permissions for the `posts/` directory (if applicable).
-4. Visit your site in a browser and start blogging!
+1. Upload files to your PHP-enabled server
+2. Install [Parsedown](https://github.com/erusev/parsedown) (required)
+3. Create Markdown posts in `/posts/` directory
 
-## License
+## Configuration
 
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-Made with ❤️ by tacojones. Happy blogging!
+Edit these variables at the top of `index.php`:
+```php
+$postsPerPage = 5;          // Posts per page
+$postsDir = 'posts/';       // Post storage directory
+$blogName = "bitblog"; // Blog title  
+$blogDescription = "A blog about nothing"; // SEO description
+$blogStyle = "style.css";   // Custom CSS file
