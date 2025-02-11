@@ -42,5 +42,3 @@ Post content in **Markdown**
 <!--more--> 
 Excerpt separator
 ```
-
-![screenshot](screenshot.png)
