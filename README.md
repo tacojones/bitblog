@@ -27,7 +27,7 @@ $blogDescription = "A blog about nothing"; // SEO description
 $blogStyle = "style.css";   // Custom CSS file
 ```
 
-## Post Formet
+## Post Format
 
 Create .md files in /posts/ with front matter:
 
