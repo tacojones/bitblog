@@ -3,7 +3,7 @@
 :root {
     /* Color Scheme */
     --background: #0a0a0a;
-    --text: #e0e0e0;
+    --text: #E0E0E0;
     --accent: #9e68ea;
     --accent-dark: #462572;
     --container-bg: #141414;
@@ -21,9 +21,10 @@
 }
 
 body {
-    background-color: var(--background);
+    background: var(--background);
     color: var(--text);
-    font-family: "Raleway", serif;
+    font-family: "Roboto", serif;
+    font-size: 0.9em;
     font-weight: 400;
     font-style: normal;
     line-height: 1.5;
@@ -143,7 +144,7 @@ header {
 }
 
 main {
-    padding: 5rem 4rem 0 5rem;
+    padding: 4rem 3rem 0 4rem;
 }
 
 .post-title h2 {
@@ -282,7 +283,6 @@ h3 {
 }
 
 p {
-    font-size: 1rem;
     margin-bottom: 1.2rem;
 }
 
@@ -319,7 +319,7 @@ strong {
 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 710px) {
     .container {
         width: 100%;
         min-width: unset;
