@@ -4,10 +4,10 @@ A simple, file-based blog system built with PHP and Markdown.
 
 ## Features
 
-📝 Markdown post support
-🔍 Full-text search
-📱 Responsive pagination
-⚡ Fast & lightweight (single file)
+📝 Markdown post support  
+🔍 Full-text search  
+📱 Responsive pagination  
+⚡ Fast & lightweight (single file)  
 📦 No database required
 
 ## Installation
