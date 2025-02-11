@@ -319,13 +319,14 @@ strong {
 
 }
 
-@media (max-width: 710px) {
-    .container {
-        width: 100%;
-        min-width: unset;
+@media (max-width: 600px) {
+    body {
+        font-size: 0.9375rem;
+        padding: 1rem 0.5rem;
     }
 
-    body {
-        padding: 1rem 0.5rem;
+    .post:not(:last-child) {
+        padding-bottom: 1.5rem;
+        margin-bottom: 1.5rem;
     }
 }
