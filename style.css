@@ -3,7 +3,7 @@
 :root {
     /* Color Scheme */
     --background: #0a0a0a;
-    --text: #ddd;
+    --text: #e0e0e0;
     --accent: #9e68ea;
     --accent-dark: #462572;
     --container-bg: #141414;
@@ -21,7 +21,7 @@
 }
 
 body {
-    background: var(--background) url(bck2.png);
+    background-color: var(--background);
     color: var(--text);
     font-family: "Raleway", serif;
     font-weight: 400;
