@@ -25,3 +25,20 @@ $postsDir = 'posts/';       // Post storage directory
 $blogName = "bitblog"; // Blog title  
 $blogDescription = "A blog about nothing"; // SEO description
 $blogStyle = "style.css";   // Custom CSS file
+```
+
+## Post Formet
+
+Create .md files in /posts/ with front matter:
+
+```md
+---
+title: My First Post
+date: 2023-01-01
+---
+
+Post content in **Markdown**
+
+<!--more--> 
+Excerpt separator
+```
